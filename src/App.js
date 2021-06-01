@@ -1,6 +1,6 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
-import { CssBaseline, ThemeProvider, createMuiTheme, Container } from '@material-ui/core';
+import { CssBaseline, ThemeProvider, createMuiTheme } from '@material-ui/core';
 import Header from './component/Header/Header';
 import MainPost from './component/MainPost/MainPost';
 import HookahPage from './component/HookahPage/HookahPage.jsx';
