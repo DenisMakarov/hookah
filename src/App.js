@@ -1,10 +1,9 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core/styles'
 import { CssBaseline, ThemeProvider, createMuiTheme } from '@material-ui/core';
-import Header from './component/Header/Header';
-import MainPost from './component/MainPost/MainPost';
-import HookahPage from './component/HookahPage/HookahPage.jsx';
+import MainPost from './Pages/MainPage/MainPost';
+import HookahPage from './Pages/HookahPage/HookahPage.jsx';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import HeaderNew from './component/Header/HeaderNew';
 
 
 
@@ -20,7 +19,7 @@ const App = () => (
     <React.Fragment>
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
-        <Header />
+        <HeaderNew />
         <Switch>
           <Route path='/' exact component={MainPost}/>
           <Route path='/hookahpage' component={HookahPage}/>
