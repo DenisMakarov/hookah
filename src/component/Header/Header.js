@@ -2,14 +2,9 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import {
   AppBar,
-  Box,
   Button,
   Container,
-  Grid,
-  IconButton,
-  Paper,
   Toolbar,
-  Typography,
 } from "@material-ui/core";
 import Links from "./Links";
 import { Link } from "react-router-dom";
@@ -22,7 +17,6 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: "wrap",
   },
   appbarTittle: {
-    fontFamily: "Dancing Script",
     flexGrow: "1",
     textDecoration: "none",
     color: theme.palette.text.primary,
@@ -39,7 +33,7 @@ export default function Header() {
   const classes = useStyles();
 
   return (
-    <React.Fragment>
+    <>
       <AppBar className={classes.appBar} elevation={0} position="fixed">
         <Container fixed>
           <Toolbar className={classes.toolBar}>
@@ -59,6 +53,6 @@ export default function Header() {
           </Toolbar>
         </Container>
       </AppBar>
-    </React.Fragment>
+    </>
   );
 }

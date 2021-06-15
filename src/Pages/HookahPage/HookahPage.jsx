@@ -1,8 +1,7 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles' 
-import { Container, Typography, Grid, Card, CardMedia, CardContent, Box, CardActions, IconButton } from '@material-ui/core'
-import HookahCard from './HookahCard/HookahCard'
-import { ControlCamera } from '@material-ui/icons'
+import { Grid } from '@material-ui/core'
+import HookahCard from './component/HookahCard'
 
 const useStyles = makeStyles((theme) => ({
   container: {
