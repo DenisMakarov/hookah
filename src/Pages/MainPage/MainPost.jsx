@@ -46,8 +46,7 @@ export default function MainPost() {
                                 paragraph
                             >
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Ratione suscipit, ipsa possimus vitae dolore corrupti doloremque facilis delectus quos maiores odit temporibus quam modi laborum ipsum neque? 
-                                Nemo, accusantium non?
+                                
                             </Typography>
                             <Link variant="subtitle1" href="#">
                                 Continue reading…
